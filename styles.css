@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.link-menu {
+  color: #17233d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.button-header {
+  width: 124px;
+  height: 51px;
+  border-radius: 6px;
+  background: #6fbf44;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid #4cb538;
+  cursor: pointer;
+}
+
+header {
+  margin: 47px 42px;
+  display: inline-block;
+}
+
+.logo-image {
+  margin: 163px 0 0 121px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #161a49;
+  font-size: 62px;
+  font-weight: 700;
+  letter-spacing: 0.596px;
+  width: 582px;
+}
+
+p {
+  color: #4b505a;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.button-main {
+  color: #6fbf44;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+div {
+  margin-left: 85px;
+  display: inline-block;
+  width: 493px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .link-menu {
+    display: none;
+  }
+  .button-header {
+    display: block;
+    margin: 17px 15px 0 284px;
+    width: 91px;
+    height: 31px;
+    flex-shrink: 0;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.596px;
+    width: 278px;
+    margin: 20px 43px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 304px;
+    margin: 20px 43px;
+  }
+  .button-main {
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    margin: 20px 139px;
+  }
+
+  .logo-image {
+    display: block;
+    position: relative;
+    top: 350px;
+    margin: 59px 39px 22px;
+    width: 312px;
+    height: 288px;
+  }
+
+  div {
+    display: block;
+    position: relative;
+    bottom: 300px;
+    right: 77px;
+  }
+
+  header {
+    margin: 0px;
+    display: block;
+  }
+}
