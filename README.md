@@ -8,7 +8,7 @@
 ## Descrição do projeto:
 <p> :heavy_check_mark: Projeto realizado como desafio do curso do DevClub, onde o objetivo principal e aplicar as tecnologias aprendidas como HTML e CSS e em seguida fazer com que esse projeto pudesse ser aberto em diversos tipos de telas </p>
 
-<img src="">
+<img src="https://github.com/AlanEduardoCruz/wide-coverage-location/blob/master/assets/desktop.JPG?raw=true">
 
 <p> :heavy_check_mark: Após realizar aplicação do conceito de responsividade na foto abaixo é possivel ver como o projeto fica ao ser aberto em um celular.</p>
-<img  src="">
+<img  src="https://github.com/AlanEduardoCruz/wide-coverage-location/blob/master/assets/mobile.JPG?raw=true">
