@@ -81,7 +81,9 @@ div {
   }
   .button-header {
     display: block;
-    margin: 17px 15px 0 284px;
+    position: relative;
+    left: 430px;
+    bottom: 31px;
     width: 91px;
     height: 31px;
     flex-shrink: 0;
@@ -121,20 +123,17 @@ div {
     display: block;
     position: relative;
     top: 350px;
-    margin: 59px 39px 22px;
-    width: 312px;
+    width: 326px;
     height: 288px;
   }
 
   div {
     display: block;
     position: relative;
-    bottom: 300px;
-    right: 77px;
+    bottom: 322px;
   }
-
-  header {
-    margin: 0px;
-    display: block;
+  main {
+    position: relative;
+    bottom: 140px;
   }
 }
